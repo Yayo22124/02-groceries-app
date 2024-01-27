@@ -1,10 +1,14 @@
 
 # Groceries App
+<div align="center">
+  
+  ![Logo](./src/public/img/logo/logo_favicon.jpg)
+  
+</div>
 
 Este proyecto es la segunda continuación de la aplicación de "Groceries" como parte de mi materia "Desarollo Móvil Multiplataforma". Esta práctica consiste en desarollar la API para la aplicación con la capacidad de responder en el estándar JSON siguiento la artquitectura API REST y el patrón de diseño MVC (Model-View-Controller) usando Node.js, Express, EJS, MongoDB Atlas y el ODM Mongoose.
 
 
-![Logo](./src/public/img/logo/logo_favicon.jpg)
 
 
 ## Stack de Tecnologías
