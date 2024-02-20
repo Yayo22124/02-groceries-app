@@ -1,8 +1,15 @@
+import { deleteOne, getAll, getOne, insertOne, updateOne } from "../controllers/products.controller.js";
+
 import { Router } from "express";
-import productsController from "../controller/products.controller.js";
 
 // Instance of Express Router
 const router = Router();
 
-router.get("getAll", productsController.getAll)
+router.get("/", getAll)
+router.get("/:barcode", getOne)
+router.post("/", insertOne)
+router.put("/:barcode", updateOne)
+router.delete("/:barcode", deleteOne)
+
+
 export default router;
